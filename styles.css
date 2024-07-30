@@ -16,7 +16,7 @@ body {
             height: 80vh;
         }
         #grid {
-            display: flex;
+            display: grid;
             justify-content: center;
             align-items: center;
             background-color: green;
