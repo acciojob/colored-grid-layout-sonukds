@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #grid-container {
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            width: 80vw;
+            height: 80vh;
+        }
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            color: white;
+            font-size: 4vw;
+        }
+        .item1 {
+            grid-column: span 4;
+        }
+        .item2 {
+            grid-row: span 4;
+        }
+        .item4 {
+            grid-column: span 2;
+        }
+        .item5 {
+            grid-column: span 2;
+        }
+        .item10 {
+            grid-column: span 3;
+        }
