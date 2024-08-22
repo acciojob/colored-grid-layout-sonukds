@@ -9,8 +9,8 @@ body {
         }
         #grid-container {
             display: grid;
-            grid-template-rows: repeat(5, 1fr);
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(124px 124px 124px 124px 124px);
+            grid-template-columns: repeat(124px 124px 124px 124px 124px);
             gap: 10px;
             width: 80vw;
             height: 80vh;
